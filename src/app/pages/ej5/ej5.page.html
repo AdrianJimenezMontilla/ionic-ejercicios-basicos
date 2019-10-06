@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ej5</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <br>
+    <span>Valor minimo</span>
+    <ion-input [(ngModel)]="min"></ion-input>
+    <span>Valor maximo</span>
+    <ion-input [(ngModel)]="max"></ion-input>
+    <br>
+    <ion-button expand="block" size="large" (click)="generaNum()">Genera número</ion-button>
+    <h1 text-center>{{ numero }}</h1>
+    <br>
+  
+  
+</ion-content>

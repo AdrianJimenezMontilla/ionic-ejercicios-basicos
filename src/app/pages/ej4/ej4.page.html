@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ej4</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <br>
+    <ion-label>Nombre</ion-label>
+    <ion-input [(ngModel)]="nombre">
+    </ion-input>
+    <ion-button expand="block" size="large" (click)="saludar()">Saluda</ion-button>
+    <br>
+    <h3 text-center>{{ saludo }}</h3>
+  
+  </ion-content>
